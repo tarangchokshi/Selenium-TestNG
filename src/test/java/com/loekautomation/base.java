@@ -150,7 +150,7 @@ public class base {
 
 	public static String capture(WebDriver driver) throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File Dest = new File (System.getProperty("user.dir") + "/ErrImages/" +  "ErrSnap_" + System.currentTimeMillis() + dateFormat.format(new Date()) +".png");
+		File Dest = new File (System.getProperty("user.dir") + "/ScreenShots/" +  "ErrSnap_" + System.currentTimeMillis() + dateFormat.format(new Date()) +".png");
 		String errflpath = Dest.getAbsolutePath();
 		FileUtils.copyFile(scrFile, Dest);
 		return errflpath;
