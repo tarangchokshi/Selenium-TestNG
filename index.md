@@ -12,4 +12,4 @@ Whenever you need to install or setup empty project with TestNG structure for Au
 5. Image capture function implemented
 6. Manual Log generated of output in report
 
-Author **[Tarang Chokshi](www.tarangchokshi.in)**
+Author **[Tarang Chokshi](http://www.tarangchokshi.in)**
