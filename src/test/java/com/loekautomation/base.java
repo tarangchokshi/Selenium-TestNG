@@ -60,7 +60,7 @@ public class base {
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\ExtentReports\\AutomationReport.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-//		htmlReporter.loadXMLConfig(".resources/extent-config.xml");
+//		htmlReporter.loadXMLConfig("src/main/java/resources/extent-config.xml");
 		
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setJS("js-string");
