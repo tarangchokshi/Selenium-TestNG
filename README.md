@@ -1,2 +1,5 @@
 # Selenium-TestNG
-Selenium TestNG Demo Project
+
+<a href = "https://tarangchokshi.github.io/Selenium-TestNG/" > Selenium Project </a>
+
+<h5> by, Tarang Chokshi </h5>
