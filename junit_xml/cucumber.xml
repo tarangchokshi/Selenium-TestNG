@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="91.757185">
+<testcase classname="Perform actions for Manage Building" name="Add new Building with Valid data" time="91.757185">
+<system-out><![CDATA[Given URL is given and login with credentialss..............................passed
+When Redirects to building module > add building screens....................passed
+Then Verify that screens....................................................passed
+Then Add new building by inserting valid input datas........................passed
+]]></system-out>
+</testcase>
+</testsuite>
