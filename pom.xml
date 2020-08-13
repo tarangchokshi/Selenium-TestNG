@@ -12,7 +12,6 @@
 
 		<!-- <suiteXmlFile>src/main/resources/TestEnvironment.xml</suiteXmlFile> -->
 		<suiteXmlFile>src/main/resources/SmokeTest.xml</suiteXmlFile>
-		<suiteXmlFile>crossbrowsing.xml</suiteXmlFile>
 
 		<skiptest>false</skiptest>
 	</properties>

@@ -11,7 +11,11 @@ public class Login extends base {
 	WebDriver driver;
 	WebDriverWait wait;
 
-	@Test
+	//@Test(dependsOnMethods = "method name goes here")
+//	@Test (enabled = true)
+//	@Test (groups = "Smoke")
+	
+	@Test (priority = 1, description = "this function will login into specific environment")
 	public void Login_Into_TestEnvironment() throws Throwable {
 
 		test = extent.createTest("Check Login Functionality");
